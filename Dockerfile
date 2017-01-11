@@ -6,8 +6,8 @@
 # Base image is python
 FROM python:latest
 
-# Author: Dr. Peter
-MAINTAINER Dr. Peter <peterindia@gmail.com>
+# Author: Eugene Murray
+MAINTAINER Eugene Murray <eugene.murray@neonta.com>
 
 # Install redis driver for python and the redis mock
 RUN pip install redis && pip install mockredispy
